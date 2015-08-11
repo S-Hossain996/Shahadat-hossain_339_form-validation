@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="project-style.css" rel="stylesheet"/>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="container main">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-3 whole-block">
+                <h1>Sign up</h1><hr>
+                
+                <form action="#" name="myForm" onsubmit="return valid()">
+                   <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" name="uname"/>
+                        <p class="help-text" id="nareq"></p>
+                    </div>
+                    
+                    <div class="form-group">
+                       <label for="pass">Password</label>
+                        <input type="password" class="form-control" name="password" placeholder="Password should be at least 6 character"/>
+                        <p class="help-text" id="pasreq"></p>
+                    </div>
+                    
+                    <div class="form-group">
+                       <label for="con-pass">Confirm Password</label>
+                        <input type="password"  class="form-control" name="passwordcon" placeholder="Re-enter password.">
+                        <p class="help-text" id="pasconreq"></p>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="fname">First Name</label>
+                        <input type="text" class="form-control" name="fname"/>
+                        <p class="help-text" id="freq"></p>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="lname">Last Name</label>
+                        <input type="text" class="form-control" name="lname"/>
+                        <p class="help-text" id="lreq"></p>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mail">Email</label>
+                        <input type="email" class="form-control" name="email"/>
+                        <p class="help-text" id="mreq"></p>
+                    </div>
+                    
+                    <button class="btn btn-default" type="submit" >Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
