@@ -8,7 +8,7 @@ function valid() {
     
     
     //For username
-    if (usrname ==== null || usrname==== "")
+    if (usrname === null || usrname=== "")
         {
             document.getElementById("nareq").innerHTML="Username is reuired";
             document.myForm.uname.focus();
@@ -66,7 +66,7 @@ function valid() {
     
 
     //For first name
-    if (firstName ==== null || firstName==="")
+    if (firstName === null || firstName==="")
         {
             document.getElementById("freq").innerHTML="First name is required.";
             document.myForm.fname.focus();
