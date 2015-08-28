@@ -16,7 +16,7 @@ function valid() {
             
         }
     
-    else if(usrname!=null)
+    else if(usrname!==null)
     {
        document.myForm.uname.style.borderColor="green"; 
     }
