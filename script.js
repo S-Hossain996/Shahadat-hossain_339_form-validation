@@ -53,7 +53,7 @@ function valid() {
             
         }
     
-     else if (pass!=pass_con)
+     else if (pass!==pass_con)
         {
             alert("The password is incorrect! Please Re-enter");
             document.myForm.passwordcon.focus();
